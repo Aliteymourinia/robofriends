@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 const Ali = (props) => {
   return (
     <div>
