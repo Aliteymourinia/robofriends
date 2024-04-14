@@ -4,8 +4,8 @@ import "./Hello.css";
 class Hello extends Component {
   render() {
     return (
-      <div className="">
-        <h1>hello world</h1>
+      <div>
+        <h1 className="text-purple-500">hello world</h1>
         <p>welcome to react</p>
       </div>
     );
