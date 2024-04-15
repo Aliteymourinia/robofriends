@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-// i maked Ali component from class component to functional component!
+// i converted Ali component from class component to functional component!
 const Ali = (props) => {
   return (
     <div>
