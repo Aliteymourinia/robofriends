@@ -27,18 +27,15 @@ a:hover {
 }
 
 body {
+  overflow: hidden;
   margin: 0;
   display: flex;
-  justify-content: center;
   text-align: center;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  max-width: 50vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+div > h2 {
+  font-size: 1.5em;
 }
 
 button {
