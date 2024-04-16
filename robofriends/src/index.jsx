@@ -7,7 +7,5 @@ import Card from "./Card";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <div>
     <Card />
-    <Card />
-    <Card />
   </div>
 );

@@ -28,15 +28,29 @@ a:hover {
 }
 
 body {
+  overflow: hidden;
+  margin: 0;
 }
 .card-container {
+  width: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.card-container > div {
+  margin: 0 10px; /* Optional: Adds some spacing between the items */
 }
 div > h2 {
   font-size: 1.5em;
+}
+div > p {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  padding-top: 5px;
 }
 
 button {
