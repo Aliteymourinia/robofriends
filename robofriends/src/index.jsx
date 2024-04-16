@@ -5,7 +5,7 @@ import Card from "./Card";
 import "tachyons";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div>
+  <div className="container">
     <Card />
     <Card />
     <Card />
