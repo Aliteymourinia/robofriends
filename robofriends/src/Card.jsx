@@ -1,7 +1,8 @@
 import React from "react";
+import "./index.css";
 const Card = () => {
   return (
-    <div>
+    <div className="card-container">
       <div>
         <img alt="robot" src="https://robohash.org/test" />
         <h2>Jane Doe </h2>
