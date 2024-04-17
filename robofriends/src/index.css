@@ -39,6 +39,7 @@ body {
   text-align: center;
   justify-content: space-between;
 }
+
 .card-container > div {
   margin: 0 10px; /* Adds some spacing between the items */
 }
