@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import { robots } from "./robots";
 const Card = (props) => {
   return (
     <div className="text-black py-4">
