@@ -13,7 +13,7 @@ export const robots = [
   },
   {
     id: 3,
-    name: "Clementine Bauch",
+    name: "Sara Bauch",
     username: "Samantha",
     email: "Nathan@yesenia.net",
   },
@@ -21,19 +21,19 @@ export const robots = [
     id: 4,
     name: "Patricia Lebsack",
     username: "Karianne",
-    email: "Julianne.OConner@kory.org",
+    email: "Julian.OConner.org",
   },
   {
     id: 5,
     name: "Chelsey Dietrich",
     username: "Kamren",
-    email: "Lucio_Hettinger@annie.ca",
+    email: "Lucio_Heting@annie.ca",
   },
   {
     id: 6,
-    name: "Mrs. Dennis Schulist",
+    name: "Dennis Schulist",
     username: "Leopoldo_Corkery",
-    email: "Karley_Dach@jasper.info",
+    email: "KarleyDach@jasper.info",
   },
   {
     id: 7,
