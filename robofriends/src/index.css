@@ -32,11 +32,10 @@ body {
   margin: 0;
 }
 .card-container {
-  width: auto;
+  width: min-content;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   text-align: center;
   justify-content: space-between;
 }

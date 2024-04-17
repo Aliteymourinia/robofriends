@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import "tachyons";
+import "./index.css"
 import Card from "./Card";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div>
+  <div className="card-container">
+    <Card />
+    <Card />
+    <Card />
+    <Card />
     <Card />
   </div>
 );
