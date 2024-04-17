@@ -32,7 +32,7 @@ body {
   margin: 0;
 }
 .card-container {
-  width: min-content;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   align-items: center;
