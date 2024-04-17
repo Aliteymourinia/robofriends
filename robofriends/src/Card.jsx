@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
-const Card = ({ name, email, id }) => {
-  //destructuring of props (used to extract specific values from the props object and it makes the code more readable and clean. )
+const Card = (props) => {
+  const { name, email, id } = props; //destructuring of props (used to extract specific values from the props object and it makes the code more readable and clean. )
   return (
     <div className="text-black py-4">
       <div className=" bg-green-300 rounded-lg  hover:scale-110 transition-transform duration-200">
