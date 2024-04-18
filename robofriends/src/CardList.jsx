@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./card";
-const CardList = ({ robots},{.id},{email}) => {
+import Card from "./Card";
+const CardList = ({ robots }) => {
   return (
     <div className="card-container">
       <Card id={robots[0].id} name={robots[0].name} email={robots[0].email} />
