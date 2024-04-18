@@ -13,7 +13,7 @@ export const robots = [
   },
   {
     id: 3,
-    name: "Sara Bauch",
+    name: "Sara Bauch ",
     username: "Samantha",
     email: "Nathan@yesenia.net",
   },
@@ -40,23 +40,5 @@ export const robots = [
     name: "Kurtis Weissnat",
     username: "Elwyn.Skiles",
     email: "Telly.Hoeger@billy.biz",
-  },
-  {
-    id: 8,
-    name: "Nicholas Runolfsdottir V",
-    username: "Maxime_Nienow",
-    email: "Sherwood@rosamond.me",
-  },
-  {
-    id: 9,
-    name: "Glenna Reichert",
-    username: "Delphine",
-    email: "Chaim_McDermott@dana.io",
-  },
-  {
-    id: 10,
-    name: "Clementina DuBuque",
-    username: "Moriah.Stanton",
-    email: "Rey.Padberg@karina.biz",
   },
 ];
