@@ -7,13 +7,13 @@ export const robots = [
   },
   {
     id: 2,
-    name: "Ervin Howell",
+    name: "Ervinan Howell",
     username: "Antonette",
     email: "Shanna@melissa.tv",
   },
   {
     id: 3,
-    name: "Sara Bauch ",
+    name: "Sara Bauchilad ",
     username: "Samantha",
     email: "Nathan@yesenia.net",
   },
