@@ -53,10 +53,4 @@ export const robots = [
     username: "Elwyn.Skiles",
     email: "lisafix.com",
   },
-  {
-    id: 11,
-    name: "Jacob Alba",
-    username: "Elwyn.Skiles",
-    email: "filly@billy.org",
-  },
 ];
