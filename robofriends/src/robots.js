@@ -55,8 +55,8 @@ export const robots = [
   },
   {
     id: 11,
-    name: "Kurtis Weissnat",
+    name: "Jacob Alba",
     username: "Elwyn.Skiles",
-    email: "Telly.Hoeger@billy.biz",
+    email: "filly@billy.org",
   },
 ];
