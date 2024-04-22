@@ -33,9 +33,9 @@ body {
 }
 .card-container {
   width: fit-content;
-  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
 }

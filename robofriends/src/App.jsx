@@ -5,4 +5,4 @@ const App = () => {
   return <CardList robots={robots} />;
 };
 
-export App default
+export default App;
