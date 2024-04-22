@@ -28,11 +28,12 @@ a:hover {
 }
 
 body {
-  overflow: hidden;
+  overflow: auto;
   margin: 0;
 }
 .card-container {
   width: fit-content;
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   align-items: center;
