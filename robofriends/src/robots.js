@@ -37,21 +37,21 @@ export const robots = [
   },
   {
     id: 7,
-    name: "Kurtis Weissnat",
+    name: "David Rous",
     username: "Elwyn.Skiles",
-    email: "Telly.Hoeger@billy.biz",
+    email: "rousdav.com",
   },
   {
     id: 8,
-    name: "Kurtis Weissnat",
+    name: "Bob Rick",
     username: "Elwyn.Skiles",
-    email: "Telly.Hoeger@billy.biz",
+    email: "bobrick@po.ir",
   },
   {
     id: 9,
-    name: "Kurtis Weissnat",
+    name: "Lisa Fix",
     username: "Elwyn.Skiles",
-    email: "Telly.Hoeger@billy.biz",
+    email: "lisafix.com",
   },
   {
     id: 11,
