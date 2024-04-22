@@ -32,7 +32,7 @@ body {
   margin: 0;
 }
 .card-container {
-  width: fit-content;
+  width: 65em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -41,7 +41,7 @@ body {
 }
 
 .card-container > div {
-  margin: 6px; /* Adds some spacing between the items */
+  margin: 0 12px 0 6px; /* Adds some spacing between the items */
 }
 div > h2 {
   font-size: 1.5em;
