@@ -1,7 +1,11 @@
 import React from "react";
 
 const SearchBox = () => {
-  return <input type="search" placeholder="search robots" />;
+  return (
+    <div>
+      <input className="" type="search" placeholder="search robots" />;
+    </div>
+  );
 };
 
 export default SearchBox;
