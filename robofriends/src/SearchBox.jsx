@@ -6,7 +6,7 @@ const SearchBox = () => {
       <input
         type="search"
         placeholder="Search robots"
-        className="p-3 text-black bg-blue-300 placeholder-gray-600  box-border border-2 border-green-500 focus:outline-none focus:shadow-lg shadow-blue-500 focus:border-blue-500 rounded-sm "
+        className="p-3 text-black bg-blue-300 placeholder-gray-600  box-border border-2 focus:outline-none border-green-500 focus:shadow-lg focus:border-blue-500 hover:shadow-lg rounded-sm "
       />
     </div>
   );
