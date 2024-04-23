@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBox = () => {
   return (
-    <div className="p-2 text-center">
+    <div className="p-2">
       <input
         type="search"
         placeholder="Search robots"

@@ -4,7 +4,7 @@ import SearchBox from "./SearchBox";
 import { robots } from "./robots";
 const App = () => {
   return (
-    <div>
+    <div className=" text-center">
       <h1>RoboFriends</h1>
       <SearchBox />
       <CardList robots={robots} />;
