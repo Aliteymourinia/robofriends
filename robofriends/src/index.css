@@ -39,4 +39,5 @@ input {
 
 .card-container > div {
   margin: 0.4em; /* Adds some spacing between the items */
+  margin-block: ;
 }
