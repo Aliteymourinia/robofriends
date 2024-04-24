@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBox = ({ searchChange }) => {
   return (
-    <div className="p-2">
+    <div>
       <input
         type="search"
         placeholder="Search robots"
