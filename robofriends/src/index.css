@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 :root {
+  height: 100%;
   margin: 0;
+  padding: 0;
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #ffffff;
   ::-webkit-search-cancel-button {
     display: none;
   }
@@ -32,7 +33,7 @@ input {
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  padding-inline: 2.4em;
+  justify-content: center;
 }
 
 .card-container > div {
