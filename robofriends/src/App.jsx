@@ -3,12 +3,17 @@ import CardList from "./CardList";
 import SearchBox from "./SearchBox";
 import { robots } from "./robots";
 
-const state = {
-  robots: robots,
-  searchfield: "",
-};
+const state = {};
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      robots: robots,
+      searchfield: "",
+    };
+  }
+
   render() {
     return (
       <div className="text-center">
