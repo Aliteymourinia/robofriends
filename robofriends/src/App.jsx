@@ -26,7 +26,7 @@ class App extends Component {
 
     return (
       <div className="text-center">
-        <h1>RoboFriends</h1>
+        <h1 className="text-3xl py-5 ">RoboFriends</h1>
         <SearchBox searchChange={this.OnSearchChange} />
         <CardList robots={filteredRobots} />
       </div>
