@@ -12,6 +12,6 @@ const CardList = ({ robots }) => {
     );
   });
 
-  return <div className="card-container">{CardArray}</div>;
+  return <div className="card-container ">{CardArray}</div>;
 };
 export default CardList;
