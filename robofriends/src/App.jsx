@@ -11,19 +11,23 @@ class App extends Component {
     };
   }
 
-  OnSearchChange=(event)=> {
-    const filteredRobots = this.state.robots.filter((robot) => {
-      return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
-    });
-    console.log(filteredRobots);
-  }
+  OnSearchChange = (event) => {
+    this.setState({ searchfield: event.target.value });
+  };
 
   render() {
+    const filteredRobots = this.state.robots.filter((robot) => {
+      return robot.name
+        .toLowerCase()
+        .includes(this.state.searchfield.toLowerCase());
+    });
+    console.log(filteredRobots);
+
     return (
       <div className="text-center">
         <h1>RoboFriends</h1>
         <SearchBox searchChange={this.OnSearchChange} />
-        <CardList robots={this.state.robots} />
+        <CardList robots={filteredRobots} />
       </div>
     );
   }
