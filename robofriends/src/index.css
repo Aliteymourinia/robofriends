@@ -32,6 +32,7 @@ input {
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
+  padding-inline: 2.4em;
 }
 
 .card-container > div {

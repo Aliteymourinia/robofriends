@@ -5,8 +5,12 @@ const Card = (props) => {
   return (
     <div className="text-black py-4">
       <div className=" bg-green-300 rounded-lg  hover:scale-105 transition-transform duration-200">
-        <img className="size-52" alt="robot" src={`https://robohash.org/${id}`} />
-        <h2>{name} </h2>
+        <img
+          className="size-56"
+          alt="robot"
+          src={`https://robohash.org/${id}`}
+        />
+        <h2 className="text-2xl">{name} </h2>
         <p>{email}</p>
       </div>
     </div>
