@@ -14,7 +14,6 @@
 }
 
 body {
-  overflow: hidden;
   margin: 0;
   padding: 0;
   background: linear-gradient(
@@ -38,6 +37,6 @@ input {
 }
 
 .card-container > div {
-  margin: 0.4em; /* Adds some spacing between the items */
-  margin-block: ;
+  margin-inline: 0.4em; /* Adds some spacing between the items */
+  padding-bottom: 0.2em;
 }
