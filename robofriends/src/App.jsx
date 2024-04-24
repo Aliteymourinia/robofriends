@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import CardList from "./CardList";
 import SearchBox from "./SearchBox";
 import { robots } from "./robots";
-
-const state = {};
-
 class App extends Component {
   constructor() {
     super();
@@ -14,12 +11,16 @@ class App extends Component {
     };
   }
 
+  OnSearchChange(event) {
+    console.log(event);
+  }
+ 
   render() {
     return (
       <div className="text-center">
         <h1>RoboFriends</h1>
-        <SearchBox />
-        <CardList robots={robots} />
+        <SearchBox searchChange={this.OnSearchChange} />
+        <CardList robots={this.state.robots} />
       </div>
     );
   }
