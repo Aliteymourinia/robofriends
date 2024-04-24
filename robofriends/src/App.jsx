@@ -11,10 +11,13 @@ class App extends Component {
     };
   }
 
-  OnSearchChange(event) {
-    console.log(event);
+  OnSearchChange=(event)=> {
+    const filteredRobots = this.state.robots.filter((robot) => {
+      return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    });
+    console.log(filteredRobots);
   }
- 
+
   render() {
     return (
       <div className="text-center">
