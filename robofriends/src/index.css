@@ -26,7 +26,7 @@ input {
   outline: none;
 }
 
-.card-container {
+.cardlist-container {
   width: fit-content;
   display: flex;
   flex-direction: row;
@@ -36,7 +36,7 @@ input {
   justify-content: center;
 }
 
-.card-container > div {
+.cardlist-container > div {
   margin-inline: 0.4em; /* Adds some spacing between the items */
   padding-bottom: 0.2em;
 }
