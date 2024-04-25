@@ -7,11 +7,15 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      robots: robots,
+      robots: [],
       searchfield: "",
     };
   }
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users");
+  }
 
+  
   OnSearchChange = (event) => {
     this.setState({ searchfield: event.target.value });
   };
