@@ -38,7 +38,9 @@ class App extends Component {
         <div className="text-center">
           <h1 className="text-5xl py-5 ">RoboFriends</h1>
           <SearchBox searchChange={this.OnSearchChange} />
-          <CardList robots={filteredRobots} />
+          <Scroll>
+            <CardList robots={filteredRobots} />
+          </Scroll>
         </div>
       );
     }
