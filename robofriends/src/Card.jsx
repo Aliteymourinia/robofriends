@@ -3,11 +3,16 @@ import "./index.css";
 const Card = (props) => {
   const { name, email, id } = props; //destructuring of props (used to extract specific values from the props object and it makes the code more readable and clean. )
   return (
-    d
-    <div className=" card bg-green-300 rounded-lg  hover:scale-105 transition-transform duration-200 flex flex-col items-center">
-      <img className="size-44" alt="robot" src={`https://robohash.org/${id}`} />
-      <h2 className="text-2xl">{name} </h2>
-      <p>{email}</p>
+    <div className="card-container py-3">
+      <div className="card bg-green-300 rounded-lg  hover:scale-105 transition-transform duration-200 flex flex-col items-center">
+        <img
+          className="size-44"
+          alt="robot"
+          src={`https://robohash.org/${id}`}
+        />
+        <h2 className="text-2xl">{name} </h2>
+        <p>{email}</p>
+      </div>
     </div>
   );
 };
