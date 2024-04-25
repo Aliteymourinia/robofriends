@@ -8,6 +8,7 @@ h1 {
   font-family: "SEGA LOGO FONT";
   font-weight: 200;
   color: #06c4e2;
+  letter-spacing: 3px;
 }
 
 #Loading {
@@ -15,5 +16,5 @@ h1 {
   top: 5%;
   left: 45%;
   font-size: 2em;
-  animation: alternate;
+  letter-spacing: 2px;
 }
