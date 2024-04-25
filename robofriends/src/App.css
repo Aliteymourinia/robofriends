@@ -11,9 +11,9 @@ h1 {
 }
 
 #Loading {
-  position: fixed;
+  position: absolute;
   top: 5%;
   left: 45%;
   font-size: 2em;
-  
+  animation: alternate;
 }

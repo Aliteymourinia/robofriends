@@ -31,7 +31,12 @@ class App extends Component {
         .includes(this.state.searchfield.toLowerCase());
     });
     if (this.state.robots.length === 0) {
-      return <h1 id="Loading">Loading ...</h1>;
+      return (
+        <div>
+          <h1 id="Loading">Loading</h1>
+          <div className="dot-flashing">...</div>
+        </div>
+      );
     } else {
       return (
         <div className="text-center">
