@@ -6,7 +6,7 @@ const Card = (props) => {
     <div className="card-container py-3">
       <div className="card bg-green-300 rounded-lg  hover:scale-105 transition-transform duration-200 flex flex-col items-center">
         <img
-          className="size-44"
+          className="size-60"
           alt="robot"
           src={`https://robohash.org/${id}`}
         />
