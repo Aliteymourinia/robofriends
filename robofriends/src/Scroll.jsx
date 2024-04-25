@@ -6,7 +6,7 @@ const Scroll = (props) => {
       style={{
         overflow: "scroll",
         border: "2px solid black ",
-        height: "700px",
+        height: "430px",
       }}
     >
       {props.children}
