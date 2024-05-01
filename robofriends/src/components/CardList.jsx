@@ -15,3 +15,8 @@ const CardList = ({ robots }) => {
   return <div className="cardlist-container ">{CardArray}</div>;
 };
 export default CardList;
+
+/* for errorBoundary:
+if (true) {
+  throw new Error("nooooooooo");
+} */
