@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // vite.config.js
 export default {
-  base: "/my-react-app/",
+  base: "/robofriends/",
   build: {
     outDir: "dist",
     assetsDir: "assets",
