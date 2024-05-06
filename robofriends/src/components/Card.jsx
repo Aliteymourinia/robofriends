@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+
 const Card = (props) => {
   const { name, email, id } = props; //destructuring of props (used to extract specific values from the props object and it makes the code more readable and clean. )
   return (
