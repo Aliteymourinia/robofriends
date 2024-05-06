@@ -12,7 +12,7 @@ class App extends Component {
       searchfield: "",
     };
   }
-  
+
   componentDidMount() {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => {
@@ -47,5 +47,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
