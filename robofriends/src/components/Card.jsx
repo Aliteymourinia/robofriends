@@ -31,5 +31,4 @@ export default Card;
     </div>
   );
 };
-
 export default Card;*/
