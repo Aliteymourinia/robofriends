@@ -32,7 +32,7 @@ class App extends Component {
     const filteredRobots = robots.filter((robot) => {
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     });
-    
+
     return !robots.length ? (
       <h1 id="Loading">Loading ...</h1>
     ) : (
@@ -48,5 +48,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
